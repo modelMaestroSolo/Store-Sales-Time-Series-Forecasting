@@ -6,23 +6,28 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Store-Sales-Time-Series-Forecasting'
-copyright = '2024, Solomon Yeboah'
-author = 'Solomon Yeboah'
-release = '0.1'
+project = "Store-Sales-Time-Series-Forecasting"
+copyright = "2024, Solomon Yeboah"
+author = "Solomon Yeboah"
+release = "0.1"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    "myst_parser",
+    "sphinx.ext.duration",
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.autodoc",
+    "nbsphinx",
+]
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
-
 
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_theme = "furo"
+html_static_path = ["_static"]
