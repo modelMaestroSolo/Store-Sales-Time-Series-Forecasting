@@ -1,0 +1,28 @@
+#data analysis and manipulation 
+numpy
+pandas
+
+# ide
+jupyter-notebook
+
+# visualization
+matplotlib
+seaborn
+
+
+# machine learning
+scikit-learn
+xgboost
+
+# time series analysis
+statsmodels
+
+#sql connection
+pyodbc
+python-dotenv
+
+# sphinx
+sphinx
+rst-to-myst[shpinx]
+nbsphinx
+furo
