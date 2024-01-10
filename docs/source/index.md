@@ -16,6 +16,9 @@ This Project is still ongoing
 ```{toctree}
 :caption: 'Contents:'
 :maxdepth: 2
+
+workflow
+data_dictionary
 ```
 
 
