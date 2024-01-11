@@ -3,22 +3,14 @@
 
 # Project Title 
 
-Store Sales Time Series Forecasting
+Forecasting Store Sales for Improved Decision-Making Using Machine Learning for Time Series Data
 
-## Overview
-The aim of this project is to build a model that more accurately predicts the unit sales for thousands of items sold at different Favorita stores. 
+## Project Overview
+Accurate forecasting of sales is crucial for businesses across various industries as it provides several tangible benefits that contribute to improved decision-making and overall business performance. Some of the key ways in which accurate sales forecasting can positively impact a business include: Optimized inventory management; efficient allocation of resources such as human resources, production capacity, marketing budgets; Optimized production schedules; Effective marketing strategies; etc. 
+
+The **aim** of this project is to build a model that more accurately predicts the unit sales for thousands of items sold at different Favorita stores. 
 
 Corporation Favorita is a large Ecuadorian-based grocery retailer
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data](#data)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -40,20 +32,22 @@ Explain how to use your project. Include code examples or screenshots if necessa
 python main.py --input data/input.csv --output results/output.csv
 
 ## Data
-If applicable, provide information about the dataset used in the project. Include a link to the dataset or information on how to obtain it.
-
+Reach out at modelmaestrosolo@gmail.com for dataset. 
 
 ## Technologies Used
 List the main technologies, frameworks, and libraries used in your project.
-- Python
-- Pandas
-- statsmodel 
-- Scikit-learn
+- Programming Languages: Python, myst 
+- Documentation tool: Sphinx
+- Data analysis and manipulation: numpy, pandas
+- statistical modelling: statsmodel 
+- ML: Scikit-learn
+- Data visualization: matplotlib, seaborn
 
 ## Contributing
-If you would like others to contribute to your project, provide guidelines on how to do so. Include information on how to report bugs, suggest improvements, or submit pull requests.
+Tietaar Louis, Brian Bassey, Umar Fawaz, Cornelius Cobbina. 
 
 ## License
-Specify the license under which your project is distributed. For example:
-
 This project is licensed under the MIT License.
+
+## Article
+Read an article on this project here: 

@@ -17,7 +17,9 @@ This Project is still ongoing
 :caption: 'Contents:'
 :maxdepth: 2
 
+sc_deliverables
 workflow
+meta_data
 data_dictionary
 ```
 
