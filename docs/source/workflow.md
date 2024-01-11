@@ -9,6 +9,6 @@ We begin the project by talking to stakeholders to understand their needs and th
 ## In-depth Exploratory Analysis
 Perform in-depth analysis to understand trends, patterns and relatioships. Exploring data to gain insights that can be used for feature engineering. 
 
-## Data Preparation
+## Data Wrangling and Preparation 
 Prepare data for modelling
 
