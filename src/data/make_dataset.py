@@ -1,3 +1,8 @@
+## packages part of requirements.txt
+## should be able to successfully import these
+## else install pyodbc, dotenv and pandas
+## create a .env that contains database credentials
+
 import pyodbc
 from dotenv import dotenv_values
 import pandas as pd
