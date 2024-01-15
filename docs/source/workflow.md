@@ -16,6 +16,8 @@ Here, we outline the various steps taken from begining to end, to complete the p
 - Translate Quesetion into a data problem: Ensure problem is formulated in a way that it is Interpretable. 
 - write down the success criteria and deliverables. 
  
+**Files**
+- notebooks/1.0-sy-Initial-EDA-and-Data-Cleaning.ipynb and project introductory page for more info. 
 
 ## Prepare data for the project:
 
@@ -31,27 +33,34 @@ Here, we outline the various steps taken from begining to end, to complete the p
 **Goal**
 - Ask at least 5 analytical questions in line with the objective(s) of the stakeholders
 
-## Initial Data Exploration and Data Preprocessing.
+**Files** 
+- notebooks/1.1-sy-Indept-EDA.ipynb contains Analytical Questions
+
+## Initial Data Exploration and Data Cleaning
 
 **Goal**
-To  check if data meets the specifications outlined in metadata and data dictionary (if exists),  gain familiarity with dataset(surface properties, structure and components), check whether there are problems with the data(content quality assessment) and  Assess potential of data to achieve project objective(s). Exploring data to gain insights for informed choices during data preprocessing: handling missing values, outliers, correct data types, removing duplicates, address data integrity issues. Preprocess data using insights gained to ensure that dataset is reasonably consistent and free from major issues. 
+- Check if data meets the specifications outlined in metadata and data dictionary (if exists)
+- Gain familiarity with dataset(surface properties, structure and components)
+- Check whether there are problems with the data(content quality assessment) 
+- Assess potential of data to achieve project objective(s). 
+- Exploring data to gain insights for informed choices during data preprocessing. 
+- Preprocess data using insights gained to ensure that dataset is reasonably consistent and free from major issues. 
 
 **Activities**
-- compare datasets to metadata and data dictionary(if exists)
-- check surface properties of datasets: format, number of variables, observations, variable types etc
+- check surface properties of datasets: format, number of variables, observations, variable types etc; compare results to metadata and data dictionary(if exists)
 - check quality content: 
-    >> completeness - *Missing values, incomplete records*
-    >> Accuracy - *Outliers, data entry errors, duplicates*
-    >> consistency - *Inconsistent formats, inconsistent categories, inconsistent representations*
-    >> Relevancy: - *Irrelevant variables, outdated data* 
+    >> - completeness - *Missing values, incomplete records* 
+    >> - Accuracy - *Outliers, data entry errors, duplicates* 
+    >> - consistency - *Inconsistent formats, inconsistent categories, inconsistent representations*
+    >> - Relevancy: - *Irrelevant variables, outdated data* 
 - summary statistics and visual inspections. 
 - spend time thinking about variables that will be needed to achieve objective(s)
 - Preprocess Data:
-    >> Handle Missing Values: Address missing values by imputing or removing them.
-    >> Handle Outliers: Identify and address outliers if they exist.
-    >> Correct Data Types: Ensure that data types are appropriate for each variable.
-    >> Remove Duplicates: Check for and remove duplicate rows if necessary.
-    >> Address Data Integrity Issues: Correct any data integrity issues.
+    >> - Handle Missing Values: Address missing values by imputing or removing them.
+    >> - Handle Outliers: Identify and address outliers if they exist.
+    >> - Correct Data Types: Ensure that data types are appropriate for each variable.
+    >> - Remove Duplicates: Check for and remove duplicate rows if necessary.SSS
+    >> - Address Data Integrity Issues: Correct any data integrity issues.
 - save data preprocessed data to data/processed/01_processed_further_analysis.csv
 
 **Files**
