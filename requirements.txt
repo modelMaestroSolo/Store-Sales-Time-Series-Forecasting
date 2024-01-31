@@ -13,6 +13,7 @@ seaborn
 # machine learning
 scikit-learn
 xgboost
+category_encoders
 
 # time series analysis
 statsmodels
