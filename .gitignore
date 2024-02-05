@@ -91,3 +91,6 @@ target/
 
 #data
 /data/
+
+#workspace
+/store-sales/
