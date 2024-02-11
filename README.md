@@ -73,7 +73,7 @@ Tietaar Louis, Brian Bassey, Umar Fawaz, Cornelius Cobbina.
 This project is licensed under the MIT License.
 
 ## Article
-Read an article on this project here: 
+Read an article on this project here: https://medium.com/@yebsolomon70/forecasting-store-sales-using-machine-learning-for-time-series-0a8d164b0626
 
 ## References
 - Peng, R. D., & Matsui, E. (2015). The Art of Data Science. Skybrude Consulting, LLC
